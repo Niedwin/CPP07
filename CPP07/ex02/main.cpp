@@ -1,41 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   whatever.hpp                                       :+:      :+:    :+:   */
+/*   main.cpp                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: guviure <guviure@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/03/18 10:53:57 by guviure           #+#    #+#             */
-/*   Updated: 2026/03/18 10:54:19 by guviure          ###   ########.fr       */
+/*   Created: 2026/03/19 16:27:47 by guviure           #+#    #+#             */
+/*   Updated: 2026/03/19 16:27:48 by guviure          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef WHATEVER_HPP
-# define WHATEVER_HPP
-
-#include <iomanip>
-#include <iostream>
-#include <string>
-
-template<typename T>
-void swap(T &a, T &b)
-{
-    T temp;
-    temp = b;
-    b = a;
-    a = temp;
-}
-
-template<typename T>
-T min(const T &a, const T &b)
-{
-    return (a < b ? a : b);
-}
-
-template<typename T>
-T max(const T a, const T b)
-{
-    return (a > b ? a : b);
-}
-
-#endif
